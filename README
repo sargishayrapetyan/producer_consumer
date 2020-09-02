@@ -1,0 +1,15 @@
+Requirements
+------------
+    * compiler version -  gcc 4.7.1(C++11) or higher
+
+Usage
+-----
+  Steps to run the application:
+    1. run "make" command
+    2. after step 1 "out" executable file will be created in bin directory
+    3. run "out" executable with number of producers and number of consumers as arguments.
+       E.g.:
+            ./out 10 10
+    4. To stop the run press CTRL+C
+    5. During the execution numbers.txt file is created and filled with 
+       randomly generated integers in range from 1 to 100(inclusively).
